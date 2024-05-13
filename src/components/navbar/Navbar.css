@@ -1,0 +1,34 @@
+.navbar{
+    padding: 0 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #46A358;
+}
+
+.navbar__logo{
+    flex: 1;
+    font-size: 28px;
+    text-decoration: none;
+}
+.navbar__carts{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    transition: 0.3s ease;
+    padding: 14px;
+    
+}
+.navbar__cart{
+    cursor: pointer;
+    color: #3D3D3D;
+    padding: 12px 0;
+    border-bottom: 3px solid #46A358;
+}
+.navbar__btns{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    transition: 0.3s ease;
+    padding: 14px;
+}
