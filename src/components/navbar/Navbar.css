@@ -11,6 +11,14 @@
     font-size: 28px;
     text-decoration: none;
 }
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #46A358;
+    font-weight: 800;
+    font-size:20px;
+}
 .navbar__carts{
     display: flex;
     gap: 14px;
@@ -25,7 +33,13 @@
     padding: 12px 0;
     border-bottom: 3px solid #46A358;
 }
-.navbar__btns{
+
+.png{
+    color: #46A358;
+    font-size: 23px;
+
+}
+.navbar__btn{
     display: flex;
     gap: 14px;
     align-items: center;
